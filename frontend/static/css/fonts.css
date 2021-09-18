@@ -1,0 +1,19 @@
+/* Apple Garamond Light Italic */
+@font-face {
+  font-family: 'AGr';
+  src:  url('../fonts/Garamond/AppleGaramond-Light.woff') format('woff');
+}
+
+/* Apple Garamond Light Italic */
+@font-face {
+    font-family: 'AGi';
+    src:  url('../fonts/Garamond/AppleGaramond-LightItalic.woff2') format('woff2'),
+          url('../fonts/Garamond/AppleGaramond-LightItalic.woff') format('woff');
+  }
+
+/* NeutralFace Regular */
+@font-face {
+    font-family: 'NFr';
+    src:  url('../fonts/NeutralFace/NeutralFace.woff2') format('woff2'),
+        url('../fonts/NeutralFace/NeutralFace.woff') format('woff');
+}

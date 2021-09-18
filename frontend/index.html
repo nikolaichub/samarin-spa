@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Samarin</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/static/css/locomotive-scroll.css" />
+        <link rel="stylesheet" href="/static/css/fonts.css" />
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <header class="header__wrapper">
+            <div class="header">
+                <div class="header__logo">
+                    <a data-link href="/">ANDREY SAMARIN</a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a data-link href="/about" class="nav__link">
+                                <span class="nav__text">BIO</span>
+                                <span class="nav__icon">
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.5253 5.49475L10.5206 7.49475L15.0782 7.50541L5.47473 17.0896L6.88752 18.5052L16.5173 8.89479L16.5065 13.5088L18.5065 13.5134L18.5253 5.51345L10.5253 5.49475Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a data-link href="/gallery" class="nav__link">
+                                <span class="nav__text">GALLERY</span>
+                                <span class="nav__icon">
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.5253 5.49475L10.5206 7.49475L15.0782 7.50541L5.47473 17.0896L6.88752 18.5052L16.5173 8.89479L16.5065 13.5088L18.5065 13.5134L18.5253 5.51345L10.5253 5.49475Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__text">CONTACT</span>
+                                <span class="nav__icon">
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.5253 5.49475L10.5206 7.49475L15.0782 7.50541L5.47473 17.0896L6.88752 18.5052L16.5173 8.89479L16.5065 13.5088L18.5065 13.5134L18.5253 5.51345L10.5253 5.49475Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- <nav class="nav">
+            <a href="/" class="nav__link" data-link>Home</a>
+            <a href="/gallery" class="nav__link" data-link>Gallery</a>
+            <a href="/about" class="nav__link" data-link>About</a>
+        </nav> -->
+        <div id="app"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script> -->
+        <script src="./static/js/base/locomotive-scroll.js"></script>
+        <script src="./static/js/base/CustomEase.min.js"></script>
+        <script src="./static/js/base/resize.js"></script>
+        <script type="module" src="/static/js/index.js"></script>
+    </body>
+</html>
