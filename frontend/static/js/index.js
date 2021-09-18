@@ -54,6 +54,7 @@ const router = async () => {
   }
   const script = document.createElement('script');
   script.src = await view.getJs();
+  script.type = 'module';
   script.classList.add('additinalscript');
   document.body.append(script);
 };

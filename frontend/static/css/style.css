@@ -1,5 +1,5 @@
-*, 
-*::after, 
+*,
+*::after,
 *::before {
     padding: 0;
     margin: 0;
@@ -11,7 +11,7 @@
     color: white;
 }
 
-body, 
+body,
 html {
     width: 100%;
     height: auto;
@@ -169,10 +169,10 @@ html {
 @keyframes homePicAnim {
     0% {
         opacity: 0;
-    } 
+    }
     50% {
         opacity: 1;
-    } 
+    }
     100% {
         opacity: 0;
     }
@@ -221,7 +221,7 @@ html {
     grid-column: 1/-1;
     grid-row: 1/2;
     font-family: 'NFr', sans-serif;
-    font-size: var(--home-logo-font); 
+    font-size: var(--home-logo-font);
     line-height: 0.9;
 }
 
@@ -229,7 +229,7 @@ html {
     grid-column: 1/2;
     grid-row: 2/-1;
     font-family: 'NFr', sans-serif;
-    font-size: var(--home-about-font); 
+    font-size: var(--home-about-font);
     line-height: 1.2;
 }
 
@@ -245,7 +245,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'AGi', serif;
-    font-size: var(--home-button-font); 
+    font-size: var(--home-button-font);
     line-height: 1;
     background: none;
     border: none;
@@ -268,7 +268,7 @@ html {
     height: 100vh;
     display: flex;
     gap: 15rem;
-    left: 100%;
+    /* left: 100%; */
     background: transparent;
     z-index: var(--z-gallery);
     /* background-color: wheat; */
