@@ -9,7 +9,7 @@ export default class extends Template {
 
   async getHtml() {
     return `
-  <div id="scrollContainer" class="scrollContainer">
+    <div id="scrollContainer" class="scrollContainer">
       <main id="main" class="main">
           <div id="mainWrapper" class="main__wrapper">
               <div id="particles" class="particles"></div>
@@ -54,7 +54,8 @@ export default class extends Template {
           </div>
           <!--<div class="block"></div>-->
       </main>
-  </div>
+    </div>
+
   `;
   }
 

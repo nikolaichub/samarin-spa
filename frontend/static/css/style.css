@@ -18,7 +18,7 @@ html {
     font-size: 10px;
     line-height: 1.25;
     overflow-x: hidden;
-    --z-header: 10;
+    --z-header: 100;
     --z-scroll: 10;
     --z-home: 10;
     --z-gallery: 10;

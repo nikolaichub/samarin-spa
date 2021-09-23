@@ -2,31 +2,31 @@ import { getRandomIntInclusive } from '../../utils/random.js';
 import { placeByRandom } from '../../utils/place.js';
 
 // Locomotive scroll settings
-const locoScroll = new LocomotiveScroll({
-  el: document.querySelector('#scrollContainer'),
-  smooth: true,
-});
+// const locoScroll = new LocomotiveScroll({
+//   el: document.querySelector('#scrollContainer'),
+//   smooth: true,
+// });
 
-locoScroll.on('scroll', ScrollTrigger.update);
+// locoScroll.on('scroll', ScrollTrigger.update);
 
-ScrollTrigger.scrollerProxy('#scrollContainer', {
-  scrollTop(value) {
-    return arguments.length
-      ? locoScroll.scrollTo(value, 0, 0)
-      : locoScroll.scroll.instance.scroll.y;
-  },
-  getBoundingClientRect() {
-    return {
-      top: 0,
-      left: 0,
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
-  },
-  pinType: document.querySelector('#scrollContainer').style.transform
-    ? 'transform'
-    : 'fixed',
-});
+// ScrollTrigger.scrollerProxy('#scrollContainer', {
+//   scrollTop(value) {
+//     return arguments.length
+//       ? locoScroll.scrollTo(value, 0, 0)
+//       : locoScroll.scroll.instance.scroll.y;
+//   },
+//   getBoundingClientRect() {
+//     return {
+//       top: 0,
+//       left: 0,
+//       width: window.innerWidth,
+//       height: window.innerHeight,
+//     };
+//   },
+//   pinType: document.querySelector('#scrollContainer').style.transform
+//     ? 'transform'
+//     : 'fixed',
+// });
 
 const { clientWidth, clientHeight } = document.documentElement;
 
@@ -156,5 +156,7 @@ textAnimation.from('.about__text, .nav__text', {
 });
 
 // Locomotive scroll settings
-ScrollTrigger.addEventListener('refresh', () => locoScroll.update());
-ScrollTrigger.refresh();
+// ScrollTrigger.addEventListener('refresh', () => locoScroll.update());
+// ScrollTrigger.addEventListener('popstate', () => locoScroll.update());
+// ScrollTrigger.addEventListener('resize', () => locoScroll.update());
+// ScrollTrigger.refresh();
